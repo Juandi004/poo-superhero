@@ -1,4 +1,4 @@
-import { Major } from "./major.model";
+
 
 export class Villager {
     constructor(
@@ -8,7 +8,7 @@ export class Villager {
     ) {}
   
     dominate(): string {
-      return `${this.name} is beign dominated by : !`;
+      return `${this.name} is beign dominated by : `;
     }
 }
   

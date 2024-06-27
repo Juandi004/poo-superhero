@@ -16,6 +16,6 @@ export class VillagerComponent implements OnInit {
 
   ngOnInit(): void {
     this.villager = this.villagerService.getVillager();
-    this.dominateMessage = this.villagerService.beingDominated();   
+    this.dominateMessage = this.villagerService.beingDominating();   
   }
 }

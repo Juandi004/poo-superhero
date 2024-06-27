@@ -20,7 +20,7 @@ export class VillagerService {
     return this.villager;
   }
 
-  beingDominated(): string {
+  beingDominating(): string {
     return this.villager.dominate();
   }
 
